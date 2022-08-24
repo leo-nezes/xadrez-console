@@ -1,11 +1,11 @@
 ﻿using System;
-using Tabuleiro;
+using tabuleiro;
 
 namespace xadrez_console
 {
     internal class Tela
     {
-        public static void ImprimirTabuleiro(Tabuleiro.Tabuleiro tabuleiro)
+        public static void ImprimirTabuleiro(Tabuleiro tabuleiro)
         {
             for (int i = 0; i < tabuleiro.Linhas; i++)
             {
